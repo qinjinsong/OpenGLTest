@@ -1,0 +1,69 @@
+﻿  26_PointShadow.cpp
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(29,15): warning C4244: “初始化”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(29,34): warning C4244: “初始化”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(102,20): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(205,11): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(206,11): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(210,18): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(211,18): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(212,10): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(213,10): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\test\OpenGLTest\opengl\26_PointShadow.cpp(220,21): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glewInit，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwInit，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，该符号在函数 "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z) 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwSetKeyCallback，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwGetTime，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，该符号在函数 main 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 SOIL_load_image，该符号在函数 "unsigned int __cdecl loadTexture(char const *,unsigned char)" (?loadTexture@@YAIPEBDE@Z) 中被引用
+26_PointShadow.obj : error LNK2019: 无法解析的外部符号 SOIL_free_image_data，该符号在函数 "unsigned int __cdecl loadTexture(char const *,unsigned char)" (?loadTexture@@YAIPEBDE@Z) 中被引用
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewActiveTexture
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewBindBuffer
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewBufferData
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewGenBuffers
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewEnableVertexAttribArray
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewVertexAttribPointer
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewFramebufferTexture
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewBindFramebuffer
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewCheckFramebufferStatus
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewGenFramebuffers
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewGenerateMipmap
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewBindVertexArray
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 __glewGenVertexArrays
+26_PointShadow.obj : error LNK2001: 无法解析的外部符号 glewExperimental
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewAttachShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCompileShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCreateProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCreateShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewDeleteShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetProgramiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetShaderiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetUniformLocation
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewLinkProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewShaderSource
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1i
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform2f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform2fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform3f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform3fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniformMatrix2fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniformMatrix3fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniformMatrix4fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUseProgram
+D:\test\OpenGLTest\opengl\lib\glew32s.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\test\OpenGLTest\opengl\lib\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\test\OpenGLTest\opengl\lib\glfw3dll.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\test\OpenGLTest\opengl\lib\assimp-vc140-mt.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\test\OpenGLTest\opengl\lib\freetype.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\test\OpenGLTest\opengl\x64\Debug\opengl.exe : fatal error LNK1120: 52 个无法解析的外部命令
